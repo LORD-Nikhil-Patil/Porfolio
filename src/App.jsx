@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
-import {AsideSection} from "./aside";
+import { Routes, Route } from "react-router-dom"
+import { AsideSection } from "./aside";
 import Space from "./space";
 import Profile from './profile';
 import Projects from "./projects"
 import Resume from "./resume";
+import EmailContactForm from './mail'
 import "./App.css"
 
 
@@ -23,15 +25,18 @@ function App() {
           </div>
         </div>
         <div className='container'>
-         <AsideSection />
+          <AsideSection />
           <main>
             <div className='control-panel'>
               <div className='control-panel-inner'>
-              <div className='main-wrapper' id='parent' >
+                <div className='main-wrapper' id='parent' >
                   <Space></Space>
-                    {/* <Profile/> */}
-                    <Resume />
-                  
+                  <Routes>
+                    <Route exact path="/" element={<Profile />} />
+                    <Route path="/Projects" element={<Projects />} />
+                    <Route path="/Resume" element={<Resume/>} />
+                    <Route path="/Email" element={<EmailContactForm />} />
+                  </Routes>
                 </div>
               </div>
             </div>

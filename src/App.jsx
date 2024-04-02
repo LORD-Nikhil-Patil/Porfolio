@@ -21,7 +21,7 @@ function App() {
             <span className='led-light'></span>
           </div>
           <div className='dashboard-display'>
-            <p className='amatic-sc-regular'>Friends</p>
+            <p className='amatic-sc-regular'>Portfolio</p>
           </div>
         </div>
         <div className='container'>

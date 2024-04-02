@@ -9,7 +9,7 @@ const Space = () => {
         const parentHeight = parent.offsetHeight;
     
         // Create stars dynamically within specified range
-        for (let i = 0; i < 50; i++) {
+        for (let i = 0; i < 100; i++) {
           createStar(parent, parentWidth, parentHeight);
         }
       }, []);

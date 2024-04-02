@@ -26,7 +26,7 @@ export const AsideSection = () => {
  } 
 
     return (<aside>
-        <p className='amatic-sc-regular'>NIKHIL</p>
+        <p className='amatic-sc-regular'>Welcome</p>
         <div className='control-panel'>
             <div className='control-panel-inner'>
                 <button className='action-btn' onClick={() => handleRoute("/")}>

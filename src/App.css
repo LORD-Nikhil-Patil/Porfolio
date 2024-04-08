@@ -11,7 +11,6 @@
 .dashboard {
   height: 100vh;
   width: 100%;
-  background: var(--dashboard-background);
   padding: 20px;
 }
 
@@ -53,16 +52,17 @@
   position: relative;
   width: 24%;
   height: 60%;
-  left: 60%;
   background: var(--border-display-color);
   border-radius: 10px;
   display: flex;
   align-items: center;
-  justify-content: end;
   padding: 6px 10px;
+  margin-left: auto;
+  margin-right: 5px;
 }
 
 .dashboard-display p {
+  margin-left: auto;
   font-size: 44px;
   color: #a1d6d2;
 }
@@ -209,6 +209,7 @@
   border-radius: 15px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 input:-webkit-autofill,

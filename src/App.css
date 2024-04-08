@@ -1,3 +1,13 @@
+:root{
+  --dashboard-background: #3c6562;
+  --frame-color: #74777c;
+  --dashboard-top-background: #282828;
+  --border-color: #091818;
+  --border-display-color: #497e7a;
+  --display-text-color: #a1d6d2;
+  --card-text-color: #767e71;
+}
+
 .dashboard {
   height: 100vh;
   width: 100%;

@@ -14,16 +14,16 @@
 
 .profile-picture {
     position: relative;
-    height: 50%;
-    width: 200px;
+    height: 15rem;
+    width: 15rem;
     background-color: #dedede;
     box-shadow: 0 0 0 13px white;
     border-radius: 15px;
 }
 
 .profile .profile-picture img {
-    width: 200px;
-    height: 200px;
+    width: 14rem;
+    height: 15rem;
     border-radius: 15px;
 }
 
@@ -38,8 +38,7 @@
 
 .profile-details h3 {
     color: var(--card-text-color);
-    top: 25px;
-    font-size: 30px;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -49,13 +48,13 @@
 
 .profile-label {
     color: var(--card-text-color);
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 400;
     margin: 5px 0px;
 }
 
 .profile-value {
     color: black;
-    font-size: 30px;
+    font-size: 2em;
     margin: 5px 0px;
 }

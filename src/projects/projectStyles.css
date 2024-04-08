@@ -1,35 +1,35 @@
-.projects{
-     position: absolute;
-     z-index: 1;
-     height: 100%;
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+.projects {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.projects .project{
+.projects .project {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 210px;
+    height: 13rem;
+    width: 15rem;
     border: rgb(44, 44, 44) 2px solid;
     margin: 5px;
     background: black;
     border-radius: 10px;
 }
 
-.projects .project img{
-    height: 170px;
+.projects .project img {
+    height: 13rem;
     width: 100%;
-    box-shadow: inset -1px -9px 300px 12px rgba(0,0,0,0.75);
-border-radius: 10px;
+    box-shadow: inset -1px -9px 300px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
 }
 
-.projects .project p{
+.projects .project p {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: white;
     margin: auto 10px 0px auto;
 }

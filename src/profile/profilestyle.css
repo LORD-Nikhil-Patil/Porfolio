@@ -1,9 +1,8 @@
 .profile {
     position: absolute;
     z-index: 1;
-    height: 70%;
-    width: 70%;
-    padding: 50px;
+    max-width: 50rem;  
+    padding: 30px;
     background-image: url("../assets/profile_back.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -14,8 +13,8 @@
 
 .profile-picture {
     position: relative;
-    height: 15rem;
-    width: 15rem;
+    height: 13rem;
+    width: 14rem;
     background-color: #dedede;
     box-shadow: 0 0 0 13px white;
     border-radius: 15px;
@@ -23,7 +22,7 @@
 
 .profile .profile-picture img {
     width: 14rem;
-    height: 15rem;
+    height: 13rem;
     border-radius: 15px;
 }
 
@@ -48,13 +47,46 @@
 
 .profile-label {
     color: var(--card-text-color);
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     margin: 5px 0px;
 }
 
 .profile-value {
+    display: inline-block;
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 5px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile {
+      max-width: 27rem;
+      max-height: 18rem;
+      padding: 20px;
+    }
+
+    .profile-picture {
+      height: 7rem;
+      width: 7rem;
+    }
+
+    .profile .profile-picture img {
+      height: 7rem;
+      width: 6rem;
+    }
+    
+    .profile-details h3 {
+        color: var(--card-text-color);
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .profile-label {
+        font-size: 1rem;
+    }
+
+    .profile-value {
+        font-size: 1rem;
+    }
 }
